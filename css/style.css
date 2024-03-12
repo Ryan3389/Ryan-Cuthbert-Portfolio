@@ -1,0 +1,56 @@
+/*CSS RESET*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root {
+    --white: whitesmoke;
+    --light-blue: #92b2e6;
+    --black: #252627;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(37, 38, 39, 0.96);
+    /*background-color: rgba(16, 15, 15, 0.96);*/
+    height: 5vh;
+    padding: 5px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+header .header-left {
+    padding-left: 20px;
+    color: var(--light-blue)
+}
+
+
+
+
+header .header-right {
+    padding-right: 20px;
+}
+
+/*NAVBAR*/
+header .header-right nav ul {
+    display: flex;
+    font-size: 20px;
+}
+
+header .header-right nav ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+header .header-right a {
+    text-decoration: none;
+    color: var(--light-blue);
+    font-weight: bold;
+}
