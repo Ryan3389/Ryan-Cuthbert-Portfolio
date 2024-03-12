@@ -121,3 +121,87 @@ section.hero .intro-container .contact-link {
 }
 
 /*END OF BUTTONS*/
+
+/*ABOUT SECTION*/
+section.about-section {
+    background-color: var(--black);
+    height: 125vh;
+    color: var(--white);
+    padding: 40px 0;
+}
+
+/*ABOUT CONTAINER - ABOUT SECTION CONTENT*/
+section.about-section .about-container {
+    width: 80%;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/*ABOUT CONTAINER TYPOGRAPHY*/
+
+section.about-section .about-container h1 {
+    color: #92b2e6;
+    text-shadow: 3px 3px 3px #000;
+}
+
+section.about-section .about-container p {
+    font-size: 24px;
+}
+
+section.about-section .about-container h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+/* PROFILE IMG STYLES*/
+
+section.about-section img.profile-pic {
+    border-radius: 70px;
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    left: 175px;
+    top: 90px;
+}
+
+section.about-section img.computer-screen {
+    height: 300px;
+    border-radius: 70px;
+}
+
+section.about-section figure {
+    position: relative;
+}
+
+section.about-section .img-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* ABOUT - skills section*/
+article.skills-article {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+article.skills-article .skills-container {
+    font-size: 20px;
+    line-height: 1.5;
+    border: 3px solid var(--light-blue);
+    margin: 0 20px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.7)
+}
+
+
+
+section.about-section .skills-article .skills-container ul {
+    list-style: none;
+    margin-top: 10px;
+}
