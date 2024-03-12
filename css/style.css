@@ -54,3 +54,70 @@ header .header-right a {
     color: var(--light-blue);
     font-weight: bold;
 }
+
+/*MAIN SECTION*/
+
+/*hero section*/
+
+section.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    background: linear-gradient(#000000b3, #000000b3), url(/images/background.jpg);
+    /*REFERENCE: https://stackoverflow.com/questions/26621513/darken-css-background-image*/
+    background-size: cover;
+    width: 100vw;
+    height: 95vh;
+    text-align: center;
+}
+
+/*HERO TYPOGRAPHY*/
+section.hero h2 {
+    font-size: 80px;
+}
+
+section.hero h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+/*INTRO CONTAINER*/
+section.hero .intro-container {
+    background-color: rgba(169, 169, 169, 0.17);
+    padding: 50px 80px;
+    border-radius: 10px;
+    color: #92b2e6;
+}
+
+section.hero .intro-container h2 {
+    text-shadow: 3px 0px 0px #000
+}
+
+section.hero .intro-container h1 {
+    padding-bottom: 10px;
+    text-shadow: 3px 0px 0px #000
+}
+
+section.hero .intro-container a {
+    text-decoration: none;
+    color: #252627;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+/*BUTTONS*/
+
+section.hero .intro-container .github-link {
+    background-color: var(--light-blue);
+    width: 115px;
+}
+
+section.hero .intro-container .contact-link {
+    background-color: var(--black);
+    color: var(--light-blue);
+    border: 1px solid var(--light-blue)
+}
+
+/*END OF BUTTONS*/
