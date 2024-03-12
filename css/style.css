@@ -205,3 +205,51 @@ section.about-section .skills-article .skills-container ul {
     list-style: none;
     margin-top: 10px;
 }
+
+/*PROJECTS SECTION*/
+section.projects-section {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*PROJECTS SECTION - typography*/
+
+section.projects-section h1,
+h2 {
+    text-shadow: none;
+}
+
+section.projects-section h2 {
+    padding-top: 20px;
+
+}
+
+section.projects-section .first-project {
+    padding: 20px;
+}
+
+article.projects-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 30px auto;
+    gap: 5px;
+}
+
+
+/*PROJECT SECTION - project divs*/
+section.projects-section .projects-container .project {
+    background-color: gray;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*PROJECT SECTION - anchor elements*/
+section.projects-section a {
+    font-weight: bold;
+    color: var(--black);
+}
