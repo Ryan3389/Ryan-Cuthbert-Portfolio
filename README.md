@@ -12,7 +12,7 @@ https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o
 ## Visuals
 
 Screenshot of deployed website:
-[deployed website](/images/portfolio-screenshot.png)
+[deployed website](../images/portfolio-screenshot.png)
 
 Link to deployed website:
 https://ryan3389.github.io/Ryan-Cuthbert-Portfolio/
