@@ -70,7 +70,7 @@ section.hero {
     justify-content: center;
     align-items: center;
     color: var(--white);
-    background: linear-gradient(#000000b3, #000000b3), url(/images/background.jpg);
+    background: linear-gradient(#000000b3, #000000b3), url(../images/background.jpg);
     /*REFERENCE: https://stackoverflow.com/questions/26621513/darken-css-background-image*/
     background-size: cover;
     width: 100vw;

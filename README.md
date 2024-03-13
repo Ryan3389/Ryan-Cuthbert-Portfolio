@@ -7,11 +7,15 @@ My name is Ryan Cuthbert. I am currently enrolled in the Coding Bootcamp run by 
 ## Images
 The images used for this website are from unsplash.com and are licensed as free to use. These images are linked below.
 https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o
-https://unsplash.com/photos/silver-imac-with-apple-magic-keyboard-on-white-sufrace-3xQ65cknLPk
+
 
 ## Visuals
 
-Screenshot of deployed website
-Link to deployed website
+Screenshot of deployed website:
+[deployed website](/images/portfolio-screenshot.png)
+
+Link to deployed website:
+https://ryan3389.github.io/Ryan-Cuthbert-Portfolio/
+
 
 
