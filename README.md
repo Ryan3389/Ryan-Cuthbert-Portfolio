@@ -2,10 +2,10 @@
 Ryan Cuthbert - Web Developer
 
 ## Description
-My name is Ryan Cuthbert. I am an aspiring web developer. I am currently enrolled in the Coding Bootcamp run by the University of Toronto. This project marks the start of my coding journey, showcasing my first two applications I have built since enrolling. The programming languages that were used in this project are HTML and CSS. Going forward, by the end of this program, this portfolio will include a wide range of deployed projects from a wide range of programming languages.
+My name is Ryan Cuthbert. I am currently enrolled in the Coding Bootcamp run by the University of Toronto. This project marks the start of my coding journey, showcasing my first two applications I have built since enrolling. The programming languages that were used in this project are HTML and CSS. By the end of this program, this portfolio will include a wide range of deployed projects from a wide range of programming languages.
 
-## images
-The images used for this website are from unsplash.com and are licensed as free to use. The these images are linked below.
+## Images
+The images used for this website are from unsplash.com and are licensed as free to use. These images are linked below.
 https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o
 https://unsplash.com/photos/silver-imac-with-apple-magic-keyboard-on-white-sufrace-3xQ65cknLPk
 
