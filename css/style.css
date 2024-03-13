@@ -19,7 +19,7 @@ header {
     background-color: rgba(37, 38, 39, 0.96);
     /*background-color: rgba(16, 15, 15, 0.96);*/
     height: 5vh;
-    padding: 5px 0;
+    padding: 15px 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -28,7 +28,9 @@ header {
 
 header .header-left {
     padding-left: 20px;
-    color: var(--light-blue)
+    color: var(--light-blue);
+    display: flex;
+    align-items: center;
 }
 
 
@@ -36,6 +38,8 @@ header .header-left {
 
 header .header-right {
     padding-right: 20px;
+    display: flex;
+    align-items: center;
 }
 
 /*NAVBAR*/
@@ -214,19 +218,24 @@ section.projects-section {
 
 /*PROJECTS SECTION - typography*/
 
-section.projects-section h1,
-h2 {
-    text-shadow: none;
-}
+
 
 section.projects-section h2 {
     padding-top: 20px;
+    font-size: 30px;
 
+}
+
+section.projects-section .first-project h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
 }
 
 section.projects-section .first-project {
     padding: 20px;
 }
+
+
 
 article.projects-container {
     display: flex;
