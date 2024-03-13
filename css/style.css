@@ -88,11 +88,17 @@ section.hero h1 {
 
 /*INTRO CONTAINER*/
 section.hero .intro-container {
-    background-color: rgba(169, 169, 169, 0.17);
+    background-color: rgba(169, 169, 169, 0.3);
     padding: 50px 80px;
     border-radius: 10px;
     color: #92b2e6;
 }
+
+section.hero .intro-container img {
+    height: 200px;
+    border-radius: 20px;
+}
+
 
 section.hero .intro-container h2 {
     text-shadow: 3px 0px 0px #000
@@ -129,7 +135,7 @@ section.hero .intro-container .contact-link {
 /*ABOUT SECTION*/
 section.about-section {
     background-color: var(--black);
-    height: 125vh;
+    height: 100vh;
     color: var(--white);
     padding: 40px 0;
 }
@@ -287,20 +293,20 @@ footer a {
 /*adjusting height in about section*/
 @media screen and (max-width: 1220px) {
     section.about-section {
-        height: 150vh;
+        height: 110vh;
     }
 }
 
 /*adjusting height in about section*/
 @media screen and (max-width: 990px) {
     section.about-section {
-        height: 160vh;
+        height: 120vh;
     }
 }
 
 @media screen and (max-width: 800px) {
     section.about-section {
-        height: 180vh;
+        height: 135vh;
     }
 
     .first-project img {
@@ -327,5 +333,14 @@ footer a {
         font-size: 14px;
     }
 
+    header {
+        height: 10vh;
+    }
 
+}
+
+@media screen and (max-width: 500px) {
+    section.about-section {
+        height: 140vh;
+    }
 }
