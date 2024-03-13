@@ -271,3 +271,52 @@ footer {
 footer a {
     color: var(--light-blue);
 }
+
+
+/*MEDIA QUERY - RESIZING LAYOUT BASED ON SCREEN SIZE*/
+
+/*adjusting height in about section*/
+@media screen and (max-width: 1220px) {
+    section.about-section {
+        height: 150vh;
+    }
+}
+
+/*adjusting height in about section*/
+@media screen and (max-width: 990px) {
+    section.about-section {
+        height: 160vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    section.about-section {
+        height: 180vh;
+    }
+
+    .first-project img {
+        width: 500px;
+    }
+
+    .intro-container {
+        width: 80%;
+    }
+
+    .hero .intro-container h2 {
+        font-size: 30px;
+    }
+
+    .hero .intro-container h1 {
+        font-size: 30px;
+    }
+
+    section.hero .intro-container .github-link {
+        font-size: 14px;
+    }
+
+    section.hero .intro-container .contact-link {
+        font-size: 14px;
+    }
+
+
+}
