@@ -5,7 +5,9 @@
     box-sizing: border-box;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 :root {
     --white: whitesmoke;
@@ -18,7 +20,7 @@ header {
     justify-content: space-between;
     background-color: rgba(37, 38, 39, 0.96);
     /*background-color: rgba(16, 15, 15, 0.96);*/
-    height: 5vh;
+    height: 6vh;
     padding: 15px 0;
     position: fixed;
     top: 0;
@@ -137,7 +139,7 @@ section.about-section {
     background-color: var(--black);
     height: 100vh;
     color: var(--white);
-    padding: 40px 0;
+    padding: 40px 0
 }
 
 /*ABOUT CONTAINER - ABOUT SECTION CONTENT*/
@@ -246,10 +248,11 @@ section.projects-section .first-project {
 article.projects-container {
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 95%;
     margin: 30px auto;
-    gap: 5px;
+    gap: 50px;
 }
+
 
 
 /*PROJECT SECTION - project divs*/
@@ -267,6 +270,11 @@ section.projects-section .projects-container .project {
 section.projects-section a {
     font-weight: bold;
     color: var(--black);
+}
+
+/*delete this if too big*/
+section.projects-section img {
+    width: 1000px;
 }
 
 /*FOOTER*/
