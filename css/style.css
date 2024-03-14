@@ -15,6 +15,7 @@ html {
     --black: #252627;
 }
 
+/*HEADER*/
 header {
     display: flex;
     justify-content: space-between;
@@ -28,6 +29,7 @@ header {
     padding: 10px;
 }
 
+/*HEADER - left side text styles*/
 header .header-left {
     padding-left: 20px;
     color: var(--light-blue);
@@ -35,9 +37,7 @@ header .header-left {
     align-items: center;
 }
 
-
-
-
+/*HEADER - right side text styles*/
 header .header-right {
     padding-right: 20px;
     display: flex;
@@ -49,6 +49,7 @@ header .header-right nav ul {
     display: flex;
     font-size: 20px;
 }
+
 
 header .header-right nav ul li {
     list-style: none;
@@ -63,14 +64,14 @@ header .header-right a {
 
 /*MAIN SECTION*/
 
-/*hero section*/
+/*HERO SECTION*/
 
 section.hero {
     display: flex;
     justify-content: center;
     align-items: center;
     color: var(--white);
-    background: linear-gradient(#000000b3, #000000b3), url(../images/background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/background.jpg);
     background-size: cover;
     width: 100vw;
     height: 95vh;
@@ -87,7 +88,7 @@ section.hero h1 {
     margin-bottom: 10px;
 }
 
-/*INTRO CONTAINER*/
+/*HERO - intro container - name / title / links*/
 section.hero .intro-container {
     background-color: rgba(169, 169, 169, 0.3);
     padding: 50px 80px;
@@ -118,7 +119,7 @@ section.hero .intro-container a {
     font-size: 20px;
 }
 
-/*BUTTONS*/
+/*HERO - github + contact links*/
 
 section.hero .intro-container .github-link {
     background-color: var(--light-blue);
@@ -131,24 +132,23 @@ section.hero .intro-container .contact-link {
     border: 1px solid var(--light-blue)
 }
 
-/*END OF BUTTONS*/
 
 /*ABOUT SECTION*/
 section.about-section {
     background-color: var(--black);
-    height: 100vh;
+    height: 95vh;
     color: var(--white);
     padding: 40px 0
 }
 
-/*ABOUT CONTAINER - ABOUT SECTION CONTENT*/
+/*ABOUT SECTION - about-container : personal intro styles*/
 section.about-section .about-container {
     width: 80%;
     margin: auto;
     line-height: 1.5;
 }
 
-/*ABOUT CONTAINER TYPOGRAPHY*/
+/*ABOUT SECTION - typography*/
 
 section.about-section .about-container h1 {
     color: #92b2e6;
@@ -156,7 +156,7 @@ section.about-section .about-container h1 {
 }
 
 section.about-section .about-container p {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 section.about-section .about-container h1 {
@@ -164,32 +164,8 @@ section.about-section .about-container h1 {
     font-size: 34px;
 }
 
-/* PROFILE IMG STYLES*/
 
-section.about-section img.profile-pic {
-    border-radius: 70px;
-    height: 120px;
-    width: 120px;
-    position: absolute;
-    left: 175px;
-    top: 90px;
-}
-
-section.about-section img.computer-screen {
-    height: 300px;
-    border-radius: 70px;
-}
-
-section.about-section figure {
-    position: relative;
-}
-
-section.about-section .img-container {
-    display: flex;
-    justify-content: center;
-}
-
-/* ABOUT - skills section*/
+/* ABOUT SECTION - skills section*/
 article.skills-article {
     display: flex;
     justify-content: center;
@@ -225,8 +201,6 @@ section.projects-section {
 
 /*PROJECTS SECTION - typography*/
 
-
-
 section.projects-section h2 {
     padding-top: 20px;
     font-size: 30px;
@@ -254,7 +228,7 @@ article.projects-container {
 
 
 
-/*PROJECT SECTION - project divs*/
+/*PROJECT SECTION - project articles*/
 section.projects-section .projects-container .project {
     background-color: gray;
     height: 200px;
@@ -271,9 +245,8 @@ section.projects-section a {
     color: var(--black);
 }
 
-/*delete this if too big*/
-section.projects-section img {
-    width: 1000px;
+.projects-section .first-project img {
+    width: 900px;
 }
 
 /*FOOTER*/
@@ -298,26 +271,26 @@ footer a {
 /*MEDIA QUERY - RESIZING LAYOUT BASED ON SCREEN SIZE*/
 
 /*adjusting height in about section*/
-@media screen and (max-width: 1220px) {
-    section.about-section {
-        height: 110vh;
-    }
-}
-
-/*adjusting height in about section*/
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1200px) {
     section.about-section {
         height: 120vh;
     }
 }
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 930px) {
     section.about-section {
-        height: 135vh;
+        height: 130vh;
     }
 
-    .first-project img {
-        width: 500px;
+    section.projects-section .first-project img {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    section.about-section {
+        height: 155vh;
     }
 
     .intro-container {
@@ -344,6 +317,12 @@ footer a {
         height: 10vh;
     }
 
+}
+
+@media screen and (max-width: 750px) {
+    section.projects-section .first-project img {
+        width: 500px;
+    }
 }
 
 @media screen and (max-width: 500px) {
