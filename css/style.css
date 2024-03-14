@@ -330,3 +330,9 @@ footer a {
         height: 140vh;
     }
 }
+
+@media screen and (max-height: 700px) {
+    section.about-section {
+        height: 180vh;
+    }
+}
