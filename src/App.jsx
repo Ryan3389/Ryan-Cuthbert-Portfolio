@@ -6,6 +6,7 @@ import './index.css'
 import MobileMenu from "./components/MobileMenu"
 import Home from "./components/sections/Home"
 import Projects from "./components/sections/Projects"
+import About from "./components/sections/About"
 function App() {
   const [isLoaded, setIsLoaded] = useState(false)
   const [menuOpen, setMenuOpen] = useState(null)
@@ -17,6 +18,7 @@ function App() {
         <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Home />
         <Projects />
+        <About />
       </main>
       {/* <LoadingScreen /> */}
     </>
