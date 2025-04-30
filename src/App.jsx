@@ -20,7 +20,7 @@ function App() {
         <Projects />
         <About />
       </main>
-      {/* <LoadingScreen /> */}
+
     </>
   )
 }
