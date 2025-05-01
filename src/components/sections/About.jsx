@@ -30,23 +30,18 @@ function About() {
                                 ))}
                             </div>
                         </div>
-                        {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8- w-[80%]"> */}
-                        <div className="flex justify-center">
-                            <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                                <h3 className="text-xl font-bold mb-4 text-center">Education</h3>
-                                <ul className="list-disc list-inside text-gray-300 space-y-2">
-                                    <li>
-                                        <strong>University of Toronto</strong> - Bootcamp
-                                    </li>
-                                    <li>Relevant Course work: Data Structures, Web Development, Cloud Computing</li>
-                                </ul>
-                            </div>
+                    </div>
+                    <div className="flex justify-center">
+                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                            <h3 className="text-xl font-bold mb-4 text-center">Education</h3>
+                            <ul className="list-disc list-inside text-gray-300 space-y-2">
+                                <li>
+                                    <strong>University of Toronto</strong> - Bootcamp
+                                </li>
+                                <li>JavaScript, Node.js, Express.js, Java, Spring Boot, Python, PostgreSQL</li>
+                            </ul>
+                        </div>
 
-                        </div>
-                        <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all flex flex-col justify-center items-center">
-                            <h3 className="text-xl font-bold mb-4 text-center">Experience</h3>
-                            <a href="#" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] ">Resume</a>
-                        </div>
                     </div>
                 </article>
             </RevealOnScroll>
